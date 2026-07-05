@@ -1,26 +1,26 @@
 # 🚖 UCab Premium - MERN Cab Booking System
 
-A full-stack MERN (MongoDB, Express.js, React.js, Node.js) Cab Booking application that provides separate dashboards for **Users**, **Drivers**, and **Administrators**.
+A full-stack MERN (MongoDB, Express.js, React.js, Node.js) Cab Booking application with separate dashboards for **Users**, **Drivers**, and **Administrators**.
 
 ---
 
-## 📌 Project Overview
+# 📌 Project Overview
 
-UCab Premium is an online cab booking platform where users can book rides, administrators can manage bookings, cars, and drivers, and drivers can accept, start, and complete assigned rides.
+UCab Premium is an online cab booking platform where users can book rides, administrators can manage bookings, drivers, and cars, while drivers can accept, start, and complete assigned rides.
 
 ---
 
 # ✨ Features
 
-### 👤 User
+## 👤 User
 - User Registration & Login
 - Book a Cab
 - View My Bookings
 - Cancel Booking
 - Download Booking Receipt
-- Secure Authentication using JWT
+- Secure JWT Authentication
 
-### 🚖 Driver
+## 🚖 Driver
 - Driver Login
 - View Assigned Rides
 - Accept Ride
@@ -29,7 +29,7 @@ UCab Premium is an online cab booking platform where users can book rides, admin
 - Complete Ride
 - Earnings Dashboard
 
-### 🛠 Admin
+## 🛠 Admin
 - Admin Login
 - Dashboard
 - Manage Users
@@ -44,21 +44,21 @@ UCab Premium is an online cab booking platform where users can book rides, admin
 
 # 🛠 Tech Stack
 
-## Frontend
+### Frontend
 - React.js
 - Vite
 - Axios
-- React Router
+- React Router DOM
 
-## Backend
+### Backend
 - Node.js
 - Express.js
 
-## Database
+### Database
 - MongoDB
 - Mongoose
 
-## Authentication
+### Authentication
 - JWT
 - bcryptjs
 
@@ -66,7 +66,7 @@ UCab Premium is an online cab booking platform where users can book rides, admin
 
 # 📁 Project Structure
 
-```
+```text
 Cab-Booking-Premium
 │
 ├── client
@@ -83,13 +83,20 @@ Cab-Booking-Premium
 │   └── server.js
 │
 ├── screenshots
+│   ├── home.png
+│   ├── login.png
+│   ├── admin-dashboard.png
+│   ├── driver-dashboard.png
+│   ├── bookings.png
+│   └── cars.png
+│
 ├── README.md
 └── .gitignore
 ```
 
 ---
 
-# ⚙ Installation
+# ⚙️ Installation
 
 ## Clone Repository
 
@@ -115,17 +122,14 @@ npm run dev
 
 ---
 
-# Environment Variables
+# 🔐 Environment Variables
 
 Create a `.env` file inside the **server** folder.
 
-```
+```env
 PORT=8000
-
 MONGO_URI=YOUR_MONGODB_CONNECTION_STRING
-
 JWT_SECRET=YOUR_SECRET_KEY
-
 JWT_EXPIRES_IN=7d
 ```
 
@@ -133,43 +137,43 @@ JWT_EXPIRES_IN=7d
 
 # 📸 Screenshots
 
-## Home Page
+## 🏠 Home Page
 
-![Home](screenshots/home.png)
-
----
-
-## Login Page
-
-![Login](screenshots/login.png)
+<img src="./screenshots/home.png" width="900"/>
 
 ---
 
-## Admin Dashboard
+## 🔐 Login Page
 
-![Admin Dashboard](screenshots/admin-dashboard.png)
-
----
-
-## Driver Dashboard
-
-![Driver Dashboard](screenshots/driver-dashboard.png)
+<img src="./screenshots/login.png" width="900"/>
 
 ---
 
-## Bookings
+## 🛠 Admin Dashboard
 
-![Bookings](screenshots/bookings.png)
-
----
-
-## Cars
-
-![Cars](screenshots/cars.png)
+<img src="./screenshots/admin-dashboard.png" width="900"/>
 
 ---
 
-# Future Enhancements
+## 🚖 Driver Dashboard
+
+<img src="./screenshots/driver-dashboard.png" width="900"/>
+
+---
+
+## 📋 Bookings
+
+<img src="./screenshots/bookings.png" width="900"/>
+
+---
+
+## 🚗 Cars Management
+
+<img src="./screenshots/cars.png" width="900"/>
+
+---
+
+# 🚀 Future Enhancements
 
 - Online Payment Integration
 - Google Maps Integration
@@ -181,16 +185,16 @@ JWT_EXPIRES_IN=7d
 
 ---
 
-# Developed By
+# 👨‍💻 Developed By
 
 **Paidipati Manikumar**
 
-Electronics and Communication Engineering (ECE)
+B.Tech - Electronics and Communication Engineering (ECE)
 
 Annamacharya Institute of Technology & Sciences, Tirupati
 
 ---
 
-# License
+# 📄 License
 
-This project is developed for educational purposes.
+This project is developed for educational purposes only.
