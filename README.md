@@ -187,11 +187,24 @@ JWT_EXPIRES_IN=7d
 
 # 👨‍💻 Developed By
 
-**Paidipati Manikumar**
+### Team: CAB BOOKING
 
-B.Tech - Electronics and Communication Engineering (ECE)
+- **Paidipati Manikumar** (Team Lead)
+- **Godugunuru Penchala Raviteja**
+- **Puli Mokshagna**
+- **Panthagani Rupan Raj**
+- **Sai Ganesh Uday Kiran Bokkasam**
 
-Annamacharya Institute of Technology & Sciences, Tirupati
+**College:** Annamacharya Institute of Technology & Sciences (AITS), Tirupati
+
+**Branch:** B.Tech – Electronics and Communication Engineering (ECE)
+
+---
+
+## 🎥 Demo Video
+
+Google Drive:
+https://drive.google.com/drive/folders/1ZDpZ5FvcYIxTEkNpBHU6LG2rhIIjf5tR
 
 ---
 
